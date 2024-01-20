@@ -1,0 +1,12 @@
+Server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: '!MySQL2023!'
+    url: jdbc:mysql://localhost:3306/dcb-security
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
